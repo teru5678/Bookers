@@ -34,3 +34,8 @@ p{
   line-height: 18px;
   margin: 33px;
 }
+
+th{
+  padding-bottom: 5px;
+}
+
