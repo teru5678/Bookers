@@ -8,5 +8,7 @@
     <%= @book.body %>
   </p>
   
-  <%= link_to "Edit",
+  <%= link_to "Edit",book_path(@book.id) %>
+   |
+  <%= link_to "Back",books_path(@book.id) %>
 </body>
