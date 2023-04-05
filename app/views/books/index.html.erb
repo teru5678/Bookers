@@ -11,7 +11,7 @@
     </tr>
   </thead>
   <tbody>
-    <% @book.each do |book| %>
+    <% @books.each do |book| %>
     <tr>
       <td><%= book.title %></td>
       <td><%= book.body %></td>
@@ -25,7 +25,7 @@
 
 
 <h2>New Book</h2>
-<% if @book.errors.any ? %>
+<% if @book.errors.any? %>
  <%= @book.errors.count %>errors
  <ul>
    <% @book.errors.full_messages.each do |message| %>
